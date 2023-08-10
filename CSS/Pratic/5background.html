@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            height: 500px;
+        }
+        .a
+        {
+            background: url(../image/mv11.jpg);
+            height: 1000px;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .b{
+            background: url(../image/task_flex.jpg);
+            background-clip:border-box;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .c
+        {
+            background: url(../image/mv11.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .d{
+            background: url(../image/task_flex.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .e{
+            
+            background-color: teal;
+        }
+        .f
+        {
+            background: url(../image/mv11.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
+        .g
+        {
+            background: url(../image/task_flex.jpg);
+            background-size: cover;
+            background-position: center;
+            background-position: top;
+            background-position: bottom;
+            background-position: left;
+            background-position: right;
+            
+        }
+        .h
+        {
+            background: url(../image/mv11.jpg);
+            background-repeat: repeat-x;
+            background-repeat: repeat-y;
+            background-repeat: round;
+            background-repeat: space;
+            background-repeat: no-repeat;
+
+        }
+        .i{
+            
+            background: url(../image/task_flex.jpg)no-repeat center center/cover;
+        }
+        .k{
+          
+            background-image: url(../image/mv11.jpg),url(../image/task_flex.jpg);
+            background-size: 200px, 200px;
+            background-repeat: no-repeat;
+            background-position: left,right;
+        }
+    </style>
+</head>
+<body>
+    <div class="a"></div>
+    <div class="b">back attachment</div>
+    <div class="c">back clip</div>
+    <div class="d">back oragin</div>
+    <div class="e">back color</div>
+    <div class="f">back image</div>
+    <div class="g">back position</div>
+    <div class="h">back repeat</div>
+    <div class="i">shortend back </div>
+    <div class="k">multiple back</div>
+</body>
+</html>

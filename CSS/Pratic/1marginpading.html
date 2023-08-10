@@ -1,0 +1,58 @@
+02MarginPaddingBox.html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+       
+        .margin{
+            margin: 10px;  
+            margin: 10px 20px;   
+            margin: 10px 20px 30px;   
+            margin: 10px 20px 30px 40px;  
+            background-color:bisque;
+        
+        }
+        .padding{
+            padding: 10px;  
+            padding: 10px 20px;   
+            padding: 10px 20px 30px;   
+            padding: 10px 20px 30px 40px;  
+            background-color: gray;
+
+        }
+        .content-box,  .border-box{
+            width: 400px;
+            height: 400px;
+            padding: 50px;
+            border: 5px solid;
+            background-color:lightcoral;
+            
+
+        }
+        .content-box{
+            box-sizing: content-box;
+        
+        }
+        .border-box{
+            box-sizing: border-box;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="margin">
+     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt animi, totam, id, incidunt aperiam facilis distinctio quo cum eveniet eum officia aut nostrum quos quaerat temporibus magnam voluptates. Consectetur, impedit labore odio distinctio inventore esse illum sed eius necessitatibus.
+    </div>
+    <hr>
+    <div class="padding">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus nihil eos repellat ab, harum, qui ratione fuga, quod commodi labore perferendis eaque. Culpa nostrum quaerat obcaecati pariatur. Similique necessitatibus minima fuga eligendi odit aliquam at doloremque aliquid, dolore nesciunt.
+    </div>
+    <hr>
+    <div class="border-box">border-box.</div>
+    <hr>
+    <div class="content-box">content-box.</div>
+    
+  </body>
+</html>
